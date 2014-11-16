@@ -5,7 +5,7 @@ date:   2014-11-15 22:33:01
 permalink: /posts/welcome-to-jekyll
 categories: jekyll
 ---
-This weekend I'm lucky enough to be attending my second Railscamp. Rather than focusing on building some awesome project and learning loads of Ruby or other languages along the way. This time I decided my focus would be on more of a soft skill I feel I need to practice: Just ship it! So my goal is simple. To complete something.
+This weekend I'm lucky enough to be attending my second Railscamp. Rather than focusing on building some awesome project and learning loads of Ruby or other languages along the way. This time I decided my focus would be on more of a soft skill I feel I need to practice: completing things! So my goal is simple. Build something and ship it!
 
 ![Woodman Point]({{ site.base_url }}/images/woodmanpoint.jpeg)
 
@@ -38,7 +38,7 @@ Edit your _config.yml file to add the following details:
 title: AmandaNeumann.com
 email: amandaneumann@me.com
 description: Random thoughts from an educationalist turned apprentice code ninja.
-baseurl: /amanda_blog # the subpath of your site, e.g. /blog/
+baseurl: "http://amanda08.github.io" # this is the location when hosting on your GitHub user account.
 url: "http://amanda08.github.io" # the base hostname & protocol for your site
 twitter_username: amandamelb
 github_username:  amanda08
@@ -50,13 +50,33 @@ markdown: kramdown
 
 Run your server to load Jekyll on your local machine.   
 `$ jekyll serve --baseurl '' --watch`   
-Note the --baseurl flag '' ensures it overrides the baseurl setup in your config so that it runs from localhost on your local machine. The --watch flag means Jekyll will automatically update your build each time you make a change to your files.
+Note the --baseurl flag ' ' ensures it overrides the baseurl setup in your config so that it runs from localhost on your local machine. The --watch flag means Jekyll will automatically update your build each time you make a change to your files.
 
 
-Now the moment of truth... open your favourite browser and head to `localhost:4000`
+Now the moment of truth... open your favourite browser and head to `localhost:4000`.
 
 If all's gone well you should see your awesome new blog! Jekyll gives you a nice default post with some helpful tips to get you started creating your first post.
 
 ## Pushing to GitHub Pages
+Once you're happy with your local build you're ready to push to GitHub pages. The first step here is setting up the repository for your project. I decided to locate mine on my user page rather than on an individual project page. So the respository I had to create was called `amanda.github.io`. Replace `amanda08` below with your own GitHub username of course.
+
+Then from your project directory, initialize a git repository.   
+`$ git init`
+
+Add your files.   
+`$ git add .`
+
+Commit them!   
+`$ git commit -m "Initial commit of my Jekyll blog!"`
+
+Setup your remote repository on GitHub.   
+`$ git remote add origin https://github.com/amanda08/amanda08.github.io.git`
+
+Push to master.   
+`$ git push -u origin master`
+
+And that's it! View your site live at [http://amanda08.github.io](http://amanda08.github.io). 
+
+
 
 
