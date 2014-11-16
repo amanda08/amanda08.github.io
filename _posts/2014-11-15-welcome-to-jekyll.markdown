@@ -10,10 +10,10 @@ This weekend I'm lucky enough to be attending my second Railscamp. Rather than f
 ![Woodman Point]({{ site.base_url }}/images/woodmanpoint.jpeg)
 
 ## The Hunt for the Best Blogging Tool
-After a quick statistically insignificant survey of the people around me there were three popular tools for us Ruby developers to use to setup a blog. Here's my summary:
-Ruby on Rails. Too much overkill for a blog. I've had plenty of practice so I was keen to give something else a go.
-Middleman. I've been meaning to check out middleman for quite some time as a blogging platform. It seems really simple to setup with either Heroku or GitHub pages. 
-Jekyll. Super easy integration with GitHub pages was a win for me. I can build the site and run it on my local server. But pushing to a simple GitHub branch via the command line is enough to get it live on the site. Plus it's ruby and I can use markdown. So this is the one.
+After a quick statistically insignificant survey of the people around me there were three popular tools for us Ruby developers to use to setup a blog. Here's my summary:   
+**Ruby on Rails**. Too much overkill for a blog. I've had plenty of practice so I was keen to give something else a go.   
+**Middleman**. I've been meaning to check out middleman for quite some time as a blogging platform. It seems really simple to setup with either Heroku or GitHub pages.  
+**Jekyll**. Super easy integration with GitHub pages was a win for me. I can build the site and run it on my local server. But pushing to a simple GitHub branch via the command line is enough to get it live on the site. Plus it's ruby and I can use markdown. So this is the one.
 
 ## Setting up a Blog with Jekyll is Super Simple!
 There are quite a few resources around for setting up a blog with Jekyll along with a number of tempalates you can use for design. I played around with a few of them before trashing them all and starting with the most basic setup. This is what's needed if I want to host on Github pages and also be able to run my server to check out pages locally.
