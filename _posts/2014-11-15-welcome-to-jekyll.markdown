@@ -4,6 +4,7 @@ title:  "On Jekyll and Blogging"
 date:   2014-11-15 22:33:01
 permalink: /posts/welcome-to-jekyll
 categories: jekyll
+comments: true
 ---
 This weekend I'm lucky enough to be attending my second Railscamp. Rather than focusing on building some awesome project and learning loads of Ruby or other languages along the way. This time I decided my focus would be on more of a soft skill I feel I need to practice: completing things! So my goal is simple. Build something and ship it!
 
