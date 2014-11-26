@@ -5,6 +5,8 @@
 
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Cutive);
+@import url(http://fonts.googleapis.com/css?family=Fira+Mono);
+@import url(http://fonts.googleapis.com/css?family=Lora);
 
 
 
@@ -41,7 +43,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

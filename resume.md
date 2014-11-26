@@ -1,11 +1,16 @@
 ---
 layout: page
-title: Resumé
 permalink: /resume/
 ---
 
 <div>
     <table class="resume">
+        <tr  class="resume-heading">
+            <td colspan="2">
+            <img class="profile-small" src="{{ site.base_url }}/images/amanda.jpeg"/>
+              Amanda Neumann - Resumé
+            </td>
+        </tr>
         <tr>
             <td class="section-heading">
                 <h3>
