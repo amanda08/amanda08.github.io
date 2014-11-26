@@ -1,0 +1,37 @@
+
+.resume {
+    border: solid 1px $grey-color-light;
+    border-spacing: 0;
+    width: 100%;
+    vertical-align: top;
+    font-size: 12px;
+    td {
+      border-collapse: collapse;
+      vertical-align: top;
+      padding: 6px 12px;
+    }
+    h3 {
+      color: #00688B;
+      font-size: 14px;
+      font-weight: bold;
+      vertical-align: top;
+      margin-bottom: 2px;
+    }
+    em {
+      font-style: italic;
+    }
+}
+
+.section-heading {
+  h3 {
+    text-align: right;
+  }
+}
+
+.resume-text {
+  width: 80%;
+  color: $grey-color;
+  p {
+    margin-bottom: 4px;
+  }
+}
